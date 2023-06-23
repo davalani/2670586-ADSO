@@ -5,21 +5,24 @@ public class Ejercicio05{
            System.out.println ("ingrese un numero N: ");
            int numero = teclado.nextInt();
             System.out.println ("Factorial: ");
-                   
+                   int j=1;
                       for ( int i = 1; i <= numero ; i++) {
-                          int j=1;
-                          j=j+i;
+                          
+                          j=j*i;
                           System.out.print (i);
+                          
                        
                           if (i < numero) {
                             System.out.print ("x");
                           }
                           if (i == numero) {
                     
-                            System.out.print ("="+j);
+                            System.out.println ("="+j);
                           }
+                          
             
                         }
+                          
 
                         
                        
