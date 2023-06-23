@@ -1,11 +1,11 @@
 import java.util.Scanner;
 public class Ejercicio06{
 	public static void main(String[] args) {	
-           Scanner teclado= new Scanner (System.in);
-           System.out.println ("ingrese un numero N: ");
-           int numero = teclado.nextInt();
-           System.out.println ("ingrese un numero M: ");
-           int numero2 = teclado.nextInt();
+            Scanner teclado= new Scanner (System.in);
+            System.out.println ("ingrese un numero N: ");
+            int numero = teclado.nextInt();
+            System.out.println ("ingrese un numero M: ");
+            int numero2 = teclado.nextInt();
            
              for (int cont=numero; cont <= numero2 ; cont++){
                 int j=1;
@@ -16,23 +16,10 @@ public class Ejercicio06{
                           if (i < cont) {
                             System.out.print ("x");
                           }
-                          if (i == cont) {
-                    
-                            System.out.print ("="+j);
-                          }
-                            
                         }
-                        System.out.println ();
-
-
+                        System.out.println ("="+j);
 
              }
-
             
-                        
-                       
-                
-
-         
     }
 }
