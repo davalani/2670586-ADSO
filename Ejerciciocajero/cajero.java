@@ -104,7 +104,7 @@ public class cajero {
         }
 
         if (indice != -1){
-            transacciones [ indice] = texto;
+            transacciones [indice] = texto;
         }else {
             
         }
